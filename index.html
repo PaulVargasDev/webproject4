@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Time Is On My Site, Yes It Is.">
+	<meta name="keywords" content="test, website, development, html, css, javascript, web, design, paul, vargas">
+	<meta name="author" content="Paul Vargas">
+    <title>Time Is On My Site, Yes It Is</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</head>
+<body>
+    <header>
+		<section class="container-fluid">
+			<div> 
+				<h1>Time Is On My Site, Yes It Is.</h1>
+			</div>	
+        </section>
+    </header>
+    <section class="wrap">
+        <div class="sectiontitle">
+            <h2>Your Local Date and Time Now:</h2>
+        </div>
+        <div class="widget">
+            <div class="date">
+                <p id="weekday" class="weekday"></p><p>, </p>
+                <p id="month" class="month"></p>
+                <p id="day" class="day"></p><p>, </p>
+                <p id="year" class="year"></p>
+            </div>
+            <div class="time">
+                <p id="hours" class="hours"></p>
+                <p>:</p>
+                <p id="minutes" class="minutes"></p>
+                <p>:</p>
+                    <div class="secondsbox">
+                        <p id="seconds" class="seconds"></p>
+                        <p id="ampm" class="ampm"></p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <script src="./js/time.js"></script>
+</body>
+</html>
